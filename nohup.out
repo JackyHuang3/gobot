@@ -1,0 +1,41 @@
+2023/08/16 15:01:30 start server for web at http://0.0.0.0:8080
+
+2023/08/16 15:01:47 webHookHandle receive message: {"object":"page","entry":[{"id":"122099998538016269","time":1692169306151,"messaging":[{"sender":{"id":"6508760582526795"},"recipient":{"id":"122099998538016269"},"timestamp":1692169305979,"message":{"mid":"m_6T_QpHUL9V6NMUf4EGxXzGMQpwFikzLs7P-JAScink0eHg6uMtXt87UVR3Gh-Paj3FY-WZRPL9AmCSXJBvcF0g","text":"feedback"}}]}]}
+
+2023/08/16 15:01:47 MsgHandle receive data: {"sender":{"id":"6508760582526795"},"recipient":{"id":"122099998538016269"},"timestamp":1692169305979,"message":{"mid":"m_6T_QpHUL9V6NMUf4EGxXzGMQpwFikzLs7P-JAScink0eHg6uMtXt87UVR3Gh-Paj3FY-WZRPL9AmCSXJBvcF0g","text":"feedback"}}
+
+2023/08/16 15:01:47 MsgHandle parsed Messaging: {Sender:{ID:6508760582526795} Recipient:{ID:122099998538016269} Message:{ID:m_6T_QpHUL9V6NMUf4EGxXzGMQpwFikzLs7P-JAScink0eHg6uMtXt87UVR3Gh-Paj3FY-WZRPL9AmCSXJBvcF0g Text:feedback AppID:0 IsEcho:false} Timestamp:1692169305979}
+
+2023/08/16 15:01:47 before send message, sendAPIUrl: https://graph.facebook.com/v17.0/122099998538016269/messages?access_token=EAAJu4pzdpeABO1GdHcXFDEudMznO84HL0C6Lk4FOGoisL4JGZAa7DZB8wgR4RtZCkMpQe8KrrP95iZACOocn6bksixNfdSdnVHDl14D4PBPxl0HDARtvGfFUsAy4kjcWjznhwMhvxl9sUJe90xWPUZBJJJMDT2Y1vCfBGjfWAXYrhn5vtwmHOYBcyK00NyX0F8ZA8ZD, sendJson: {"recipient":{"id":"6508760582526795"},"message":{"attachment":{"type":"template","payload":{"template_type":"customer_feedback","title":"Rate your experience with Original Coast Clothing.","subtitle":"Let gobot know how they are doing by answering two questions","button_title":"Rate Experience","feedback_screens":[{"questions":[{"id":"gobot","type":"csat","title":"How would you rate your experience with gobot?","score_label":"neg_pos","score_option":"five_stars","follow_up":{"type":"free_form","placeholder":"Give additional feedback"}}]}],"business_privacy":{"url":"https://www.facebook.com"},"expires_in_days":3}}}}
+
+2023/08/16 15:01:48 messaging send response: {"recipient_id":"6508760582526795","message_id":"m_KjbadwPWRxrpfGUPFF3LyWMQpwFikzLs7P-JAScink0FLnNQUGjhwOwLjFw0QtGBSqFzGO3T60xJmywS5DMb2g"}
+
+2023/08/16 15:01:50 webHookHandle receive message: {"object":"page","entry":[{"id":"122099998538016269","time":1692169308887,"messaging":[{"sender":{"id":"122099998538016269"},"recipient":{"id":"6508760582526795"},"timestamp":1692169308727,"message":{"mid":"m_KjbadwPWRxrpfGUPFF3LyWMQpwFikzLs7P-JAScink0FLnNQUGjhwOwLjFw0QtGBSqFzGO3T60xJmywS5DMb2g","is_echo":true,"app_id":684869526857184,"attachments":[{"title":"Rate your experience with Original Coast Clothing.","url":null,"type":"template","payload":{"template_type":"generic","sharable":false,"elements":[{"title":"Rate your experience with Original Coast Clothing.","subtitle":"Let gobot know how they are doing by answering two questions","buttons":[{"type":"feedback_send","webview_height_ratio":"full","title":"Rate Experience","webview_share_button":"hide"}]}]}}]}}]}]}
+
+2023/08/16 15:01:50 MsgHandle receive data: {"sender":{"id":"122099998538016269"},"recipient":{"id":"6508760582526795"},"timestamp":1692169308727,"message":{"mid":"m_KjbadwPWRxrpfGUPFF3LyWMQpwFikzLs7P-JAScink0FLnNQUGjhwOwLjFw0QtGBSqFzGO3T60xJmywS5DMb2g","is_echo":true,"app_id":684869526857184,"attachments":[{"title":"Rate your experience with Original Coast Clothing.","url":null,"type":"template","payload":{"template_type":"generic","sharable":false,"elements":[{"title":"Rate your experience with Original Coast Clothing.","subtitle":"Let gobot know how they are doing by answering two questions","buttons":[{"type":"feedback_send","webview_height_ratio":"full","title":"Rate Experience","webview_share_button":"hide"}]}]}}]}}
+
+2023/08/16 15:01:50 MsgHandle parsed Messaging: {Sender:{ID:122099998538016269} Recipient:{ID:6508760582526795} Message:{ID:m_KjbadwPWRxrpfGUPFF3LyWMQpwFikzLs7P-JAScink0FLnNQUGjhwOwLjFw0QtGBSqFzGO3T60xJmywS5DMb2g Text: AppID:684869526857184 IsEcho:true} Timestamp:1692169308727}
+
+2023/08/16 15:01:50 before send message, sendAPIUrl: https://graph.facebook.com/v17.0/122099998538016269/messages?access_token=EAAJu4pzdpeABO1GdHcXFDEudMznO84HL0C6Lk4FOGoisL4JGZAa7DZB8wgR4RtZCkMpQe8KrrP95iZACOocn6bksixNfdSdnVHDl14D4PBPxl0HDARtvGfFUsAy4kjcWjznhwMhvxl9sUJe90xWPUZBJJJMDT2Y1vCfBGjfWAXYrhn5vtwmHOYBcyK00NyX0F8ZA8ZD, sendJson: {"recipient":{"id":"122099998538016269"},"messaging_type":"RESPONSE","message":{"text":""}}
+
+2023/08/16 15:01:50 messaging send response: {"error":{"message":"(#100) \u6d88\u606f\u4e0d\u80fd\u4e3a\u7a7a\uff0c\u5fc5\u987b\u63d0\u4f9b\u6709\u6548\u9644\u4ef6\u6216\u6587\u5b57\u5185\u5bb9","type":"OAuthException","code":100,"error_subcode":2018034,"fbtrace_id":"Aq4k26x0ujrzooxeOxHrT9-"}}
+
+2023/08/16 15:02:04 webHookHandle receive message: {"object":"page","entry":[{"id":"122099998538016269","time":1692169323257,"messaging":[{"recipient":{"id":"122099998538016269"},"timestamp":1692169323257,"sender":{"id":"6508760582526795"},"messaging_feedback":{"feedback_screens":[{"screen_id":0,"questions":{"gobot":{"type":"CSAT","payload":"5","follow_up":{"type":"free_form","payload":"nice gobot"}}}}]}}]}]}
+
+2023/08/16 15:02:04 FeedbackHandle receive data: {"recipient":{"id":"122099998538016269"},"timestamp":1692169323257,"sender":{"id":"6508760582526795"},"messaging_feedback":{"feedback_screens":[{"screen_id":0,"questions":{"gobot":{"type":"CSAT","payload":"5","follow_up":{"type":"free_form","payload":"nice gobot"}}}}]}}
+
+2023/08/16 15:02:04 FeedbackHandle parsed Messaging: {Sender:{ID:6508760582526795} Receiver:{ID:122099998538016269} Feedback:{Screens:[{ID:0 Questions:map[gobot:0xc00046c160]}]} Timestamp:1692169323257}
+
+2023/08/16 15:02:04 before send message, sendAPIUrl: https://graph.facebook.com/v17.0/122099998538016269/messages?access_token=EAAJu4pzdpeABO1GdHcXFDEudMznO84HL0C6Lk4FOGoisL4JGZAa7DZB8wgR4RtZCkMpQe8KrrP95iZACOocn6bksixNfdSdnVHDl14D4PBPxl0HDARtvGfFUsAy4kjcWjznhwMhvxl9sUJe90xWPUZBJJJMDT2Y1vCfBGjfWAXYrhn5vtwmHOYBcyK00NyX0F8ZA8ZD, sendJson: {"recipient":{"id":"6508760582526795"},"messaging_type":"RESPONSE","message":{"text":"Thank you for your 5 star feedback, we will continue to improve and optimize"}}
+
+2023/08/16 15:02:05 messaging send response: {"recipient_id":"6508760582526795","message_id":"m_rLoaHaHI28G7qDayaYr_DGMQpwFikzLs7P-JAScink2roE5KObfyUSgvDOHNuw-YKapiyg4OiA4R0smZFxpPSw"}
+
+2023/08/16 15:02:05 webHookHandle receive message: {"object":"page","entry":[{"id":"122099998538016269","time":1692169324980,"messaging":[{"sender":{"id":"122099998538016269"},"recipient":{"id":"6508760582526795"},"timestamp":1692169324884,"message":{"mid":"m_rLoaHaHI28G7qDayaYr_DGMQpwFikzLs7P-JAScink2roE5KObfyUSgvDOHNuw-YKapiyg4OiA4R0smZFxpPSw","is_echo":true,"text":"Thank you for your 5 star feedback, we will continue to improve and optimize","app_id":684869526857184}}]}]}
+
+2023/08/16 15:02:05 MsgHandle receive data: {"sender":{"id":"122099998538016269"},"recipient":{"id":"6508760582526795"},"timestamp":1692169324884,"message":{"mid":"m_rLoaHaHI28G7qDayaYr_DGMQpwFikzLs7P-JAScink2roE5KObfyUSgvDOHNuw-YKapiyg4OiA4R0smZFxpPSw","is_echo":true,"text":"Thank you for your 5 star feedback, we will continue to improve and optimize","app_id":684869526857184}}
+
+2023/08/16 15:02:05 MsgHandle parsed Messaging: {Sender:{ID:122099998538016269} Recipient:{ID:6508760582526795} Message:{ID:m_rLoaHaHI28G7qDayaYr_DGMQpwFikzLs7P-JAScink2roE5KObfyUSgvDOHNuw-YKapiyg4OiA4R0smZFxpPSw Text:Thank you for your 5 star feedback, we will continue to improve and optimize AppID:684869526857184 IsEcho:true} Timestamp:1692169324884}
+
+2023/08/16 15:02:05 before send message, sendAPIUrl: https://graph.facebook.com/v17.0/122099998538016269/messages?access_token=EAAJu4pzdpeABO1GdHcXFDEudMznO84HL0C6Lk4FOGoisL4JGZAa7DZB8wgR4RtZCkMpQe8KrrP95iZACOocn6bksixNfdSdnVHDl14D4PBPxl0HDARtvGfFUsAy4kjcWjznhwMhvxl9sUJe90xWPUZBJJJMDT2Y1vCfBGjfWAXYrhn5vtwmHOYBcyK00NyX0F8ZA8ZD, sendJson: {"recipient":{"id":"122099998538016269"},"messaging_type":"RESPONSE","message":{"text":"Thank you for your 5 star feedback, we will continue to improve and optimize"}}
+
+2023/08/16 15:02:05 messaging send response: {"error":{"message":"(#100) \u627e\u4e0d\u5230\u5339\u914d\u7684\u7528\u6237","type":"OAuthException","code":100,"error_subcode":2018001,"fbtrace_id":"AKprVmP8T-NN1kTpfKdsLZB"}}
